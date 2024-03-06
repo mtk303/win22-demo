@@ -9,8 +9,8 @@
 .topupCard {
   background: linear-gradient(
     180deg,
-    rgba(162, 64, 227, 1) 0%,
-    rgba(75, 21, 122, 1) 100%
+    #e6c24d,
+    #775714
   );
   box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 45px;
   max-width: 50%;
@@ -19,7 +19,7 @@
 .topupText {
   font-size: 19px;
   font-weight: 200;
-  color: rgb(226, 194, 11);
+  color: #000;
 }
 
 .bankImg {
@@ -28,7 +28,7 @@
 }
 
 .viber {
-  background: #a240e3;
+  background: #775714;
   max-width: max-content;
 }
 

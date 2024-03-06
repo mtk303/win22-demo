@@ -1,8 +1,8 @@
 .withDrawCircle {
   background: linear-gradient(
     180deg,
-    rgba(162, 64, 227, 1) 0%,
-    rgba(75, 21, 122, 1) 100%
+    #e6c24d,
+    #775714
   );
   width: 13%;
   height: 25%;
@@ -17,18 +17,16 @@
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .withDrawText {
-  background: linear-gradient(
-    180deg,
-    rgba(162, 64, 227, 1) 0%,
-    rgba(75, 21, 122, 1) 100%
-  );
+  background: 
+    #775714
+  ;
   border-top: 1px solid #fff;
 }
 .bgColor {
   background: linear-gradient(
     180deg,
-    rgba(162, 64, 227, 1) 0%,
-    rgba(75, 21, 122, 1) 100%
+    #e6c24d,
+    #775714
   );
   max-width: max-content;
   text-align: center;

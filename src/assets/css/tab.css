@@ -53,8 +53,8 @@
     }
 }
 .nav-pills .nav-link.active{
-    background: linear-gradient(-45deg,rgb(232, 185, 97),rgb(240, 202, 132));
-    color: #333;
+    background: linear-gradient(-45deg,#775714,#e6c24d);
+    color: #fff;
     font-weight: 700;
     text-shadow: 0 0 1px #000;
 }

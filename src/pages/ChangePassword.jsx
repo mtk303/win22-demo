@@ -19,7 +19,7 @@ function ChangePasswordPage() {
             <Form.Control type="password" placeholder="Password" />
         </Form.Group>
         <div className="cgPwBtn">
-            <Button  variant="warning" type="submit">
+            <Button  type="submit">
             အတည်ပြုပါ။
             </Button>
         </div>

@@ -35,8 +35,8 @@ const HomeTabs = () => {
         {id:3,img:lotto,title:'lotto',link:'/slots?tab=3'},
         {id:4,img:slot,title:'slot',link:'/slots?tab=4'},
         {id:5,img:sport,title:'sport',link:'/slots?tab=5'},
-        {id:6,img:viber,title:'viber',link:'/slots'},
-        {id:7,img:telegram,title:'telegram',link:'/slots'}
+        // {id:6,img:viber,title:'viber',link:'/slots'},
+        // {id:7,img:telegram,title:'telegram',link:'/slots'}
     ];
     const homeContents=[
       {id:1,img:bbincasino,title:'bbincasino'},

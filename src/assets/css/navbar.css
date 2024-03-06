@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(182deg,#6831ab,#1f0e41),url(/images/007.jpeg)50%;
+    background: #000;
     box-shadow: 0 0 10px #000!important;
 }
 header img{
@@ -23,7 +23,7 @@ header img{
     font-weight: 400 !important;
 }
 .navRegisterBtn{
-    background-image: radial-gradient(100% 100% at 50% 0,#c69dff 0,#6b29bc 44%,#34185f 100%),linear-gradient(180deg,#fbb21f,#ffc107);
+    background-image: radial-gradient(100% 100% at 50% 0,#e6c24d 0,#775714 44%,#775714 100%),linear-gradient(180deg,#fbb21f,#ffc107);
     color: #fff;
     border-radius: 8px;
     border: 2px solid gold;
