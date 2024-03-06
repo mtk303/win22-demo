@@ -29,7 +29,7 @@ const Withdraw = () => {
               <div className='col'>
                 <p className=''>
                   အကန့်အသတ်မရှိ အရေအတွက်{' '}
-                  <span className='text-danger fw-bold'>
+                  <span className='text-dark fw-bold'>
                     ( ယနေ့ထုတ်ယူနိုင်သော လက်ကျန်အရေအတွက် 0 အချိန်)
                   </span>
                 </p>
@@ -44,7 +44,7 @@ const Withdraw = () => {
               <div className='col'>
                 <p className='text-start'>
                   အကန့်အသတ်မရှိ အရေအတွက်{' '}
-                  <span className='text-danger fw-bold'>
+                  <span className='text-dark fw-bold'>
                     ( ယနေ့ထုတ်ယူလို့ရတဲ့ ပမာဏကျန်သေးတယ်။ 0)
                   </span>
                 </p>
