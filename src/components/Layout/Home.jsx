@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 
 function Home(){
     const menus = [
-        {id:1,img:deposit,title:'ငွေသွင်း',link:'/slots/topup'},
-        {id:2,img:withdraw,title:'ငွေထုတ်',link:'/slots/withdraw'},
-        {id:3,img:todolist,title:'မှတ်တမ်း',link:'/slots/transferlog'},
-        {id:4,img:present,title:'ပရိုမိုးရှင်း',link:'/slots/Promotion'}
+        {id:1,img:deposit,title:'ငွေသွင်း',link:'/topup'},
+        {id:2,img:withdraw,title:'ငွေထုတ်',link:'/withdraw'},
+        {id:3,img:todolist,title:'မှတ်တမ်း',link:'/transferlog'},
+        {id:4,img:present,title:'ပရိုမိုးရှင်း',link:'/Promotion'}
         // {id:5,img:arrow,link:'/Logout'}
 
     ]

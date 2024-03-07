@@ -43,7 +43,7 @@ const RegisterPage = () => {
     </Form>
         <div className="text-center my-3">
           <NavLink className='text-decoration-none text-light  '
-           to={'/slots/login'}>လော့ဂ်အင်ဝင်ရန်
+           to={'/login'}>လော့ဂ်အင်ဝင်ရန်
            </NavLink>
 
         </div>

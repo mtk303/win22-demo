@@ -37,6 +37,10 @@ marquee{
         width: 375px;
         margin: auto;
     }
+    footer{
+        width: 375px;
+        margin: auto;
+    }
 }
 @media screen and (max-width:450px){
     .mainSwiper{

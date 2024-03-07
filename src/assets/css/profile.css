@@ -1,0 +1,11 @@
+.profileBtn{
+    background-image: radial-gradient(100% 100% at 50% 0, #e6c24d 0, #775714 44%, #775714 100%), linear-gradient(180deg, #fbb21f, #ffc107);
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid gold;
+    padding: 5px 10px;
+}
+.profileBtn:hover{
+    border: 2px solid gold !important;
+
+}
