@@ -29,7 +29,7 @@ const Promotion = ()=>{
         {
             promos.map((promo)=>{
                 return <>
-                <Link to='/promotiondetail' className="d-flex justify-content-between align-items-center my-2 p-2 text-decoration-none rounded" style={{backgroundColor:'rgba(102, 0, 149, 1)'}}>
+                <Link to='/lotto/promotiondetail' className="d-flex justify-content-between align-items-center my-2 p-2 text-decoration-none rounded" style={{backgroundColor:'rgba(102, 0, 149, 1)'}}>
                     <img src={promo.img} alt="" style={{borderRadius:'50%',width:'50px',height:'50px'}}/>
                     <div className="text-white mx-4">{promo.title}</div>
                     <i class="fa-solid fa-chevron-right"></i>

@@ -42,7 +42,7 @@ const LoginPage = () => {
         style={{ cursor: 'pointer' }}
         className='px-3 px-sm-5 d-flex align-items-center justify-content-between'
       >
-        <NavLink className='text-decoration-none text-light  ' to={'/slots/register'}>
+        <NavLink className='text-decoration-none text-light  ' to={'/register'}>
           အကောင့်ဖွင့်ရန်
         </NavLink>
         <p className='mt-3'> ဆက်သွယ်ရန် </p>
