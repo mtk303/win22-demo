@@ -1,0 +1,12 @@
+.viber-styles{
+    height: 70px;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 3%;
+    bottom: 13%;
+}
+
+.viber-parent{
+    position: relative;
+}
