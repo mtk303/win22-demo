@@ -26,7 +26,7 @@ const mepage = ()=>{
     <div>
         {
             links.map((link)=>{
-                return <Link to={link.link} className="d-flex justify-content-between align-items-center text-decoration-none text-white p-2 mb-2 rounded" style={{boxShadow: '3px 3px 5px rgba(102, 0, 149, 1)'}}>
+                return <Link to={link.link} className="d-flex justify-content-between align-items-center text-decoration-none text-white p-2 mb-2 rounded" style={{boxShadow: '3px 3px 5px #775714'}}>
                     <div className="d-flex justify-content-center align-items-center">
                         <img src={link.img} style={{width:'25px'}} alt="" />
                         <p className="mt-3 ms-3">{link.title}</p>

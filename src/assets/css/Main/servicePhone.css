@@ -1,15 +1,15 @@
 
 
 .servicePhoneTitle{
-border: 5px dashed #8602c8;
+border: 5px dashed #775714;
 }
 .serviceCard{
-    border: 1px solid purple;
+    border: 1px solid #775714;
     border-radius: 15px;
-    background: rgb(173, 2, 173);
+    background: #775714;
 }
 .serviceJoinBtn{
-    background: #340057;
+    background: #775714;
     border-radius: 15px;
-    border: 1px solid purple;
+    border: 1px solid #775714;
 }

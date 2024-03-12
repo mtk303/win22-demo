@@ -66,7 +66,7 @@ const Result = ()=>{
                         {
                             twod.datas.map((data)=>{
                                 return <>
-                                <div className="py-3" style={{backgroundColor:'rgba(102, 0, 149, 1)'}}>
+                                <div className="py-3" style={{backgroundColor:'#775714'}}>
                                     <p className="text-center text-decoration-underline">{data.time}</p>
                                     <div className="d-flex justify-content-around align-items-center">
                                         <p>Set</p>
