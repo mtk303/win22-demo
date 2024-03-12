@@ -25,20 +25,20 @@ const Navbar = () => {
   ];
 
 
-  
-  const sidebars = [ 
-    {id:1,font:' fa-solid fa-gamepad',title:'ဂိမ်းအားလုံး',link:'/'},
+
+  const sidebars = [
+    { id: 1, font: ' fa-solid fa-gamepad', title: 'ဂိမ်းအားလုံး', link: '/' },
     // {id:2,font:'fa-solid fa-building-columns',title:'ငွေသွင်းရန်',link:'/topup'},
     // {id:3,font:'fa-solid fa-clipboard-list',title:'ငွေသွင်းငွေထုတ်စာရင်း',link:'/transferlog'},
-     {id:2,font:'fa-solid fa-user',title:'အကောင့်',link:'/profile'},
-    {id:3,font:'fa-solid fa-gamepad',title:'ဂိမ်းမှတ်တမ်း',link:'/play-history'}, 
-    {id:4,font:'fa-solid fa-gift',title:'ပရိုမိုးရှင်း',link:'/promotion'}, 
-      {id:5,font:'fa-solid fa-wallet',title:'ပိုက်ဆံအိတ်',link:'/wallet'},
+    { id: 2, font: 'fa-solid fa-user', title: 'အကောင့်', link: '/profile' },
+    { id: 3, font: 'fa-solid fa-gamepad', title: 'ဂိမ်းမှတ်တမ်း', link: '/play-history' },
+    { id: 4, font: 'fa-solid fa-gift', title: 'ပရိုမိုးရှင်း', link: '/promotion' },
+    { id: 5, font: 'fa-solid fa-wallet', title: 'ပိုက်ဆံအိတ်', link: '/wallet' },
 
-    {id:6,font:'fa-solid fa-user-pen',title:'လျှိ့ဝှက်နံပါတ်ပြောင်းရန်',link:'/change-password'},
+    { id: 6, font: 'fa-solid fa-user-pen', title: 'လျှိ့ဝှက်နံပါတ်ပြောင်းရန်', link: '/change-password' },
     // {id:6,font:'fa-solid fa-coins',title:'ငွေထုတ်ရန်',link:'/withdraw'},
     // {id:7,font:'fa-solid fa-file-invoice',title:'ငွေသွင်း/ထုတ်မှတ်တမ်း',link:'/'},
-    {id:7,font:'fa-solid fa-arrow-right-from-bracket',title:'ထွက်ရန်',link:'/'},
+    { id: 7, font: 'fa-solid fa-arrow-right-from-bracket', title: 'ထွက်ရန်', link: '/' },
   ]
 
 
@@ -47,19 +47,19 @@ const Navbar = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <header className='py-3 py-lg-0 px-3 px-sm-5 d-flex flex-wrap align-items-center  justify-content-between '>
-     <div>
-     <Button
+    <header className='py-2 py-sm-0 px-3 px-sm-5 d-flex flex-wrap align-items-center  justify-content-between '>
+      <div>
+        <Button
           variant='primary'
           onClick={handleShow}
           className='bg-transparent'
         >
           <i class='fa-solid fa-bars'></i>
         </Button>
-      <NavLink to={'/'}>
-        <img src={logo} />
-      </NavLink>
-     </div>
+        <NavLink to={'/'}>
+          <img src={logo} />
+        </NavLink>
+      </div>
 
       <div className='d-flex align-items-center  gap-4 '>
         <div className='d-none d-lg-flex align-items-center gap-4  '>

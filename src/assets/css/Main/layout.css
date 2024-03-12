@@ -1,42 +1,56 @@
-.layout,.mainBody{
+.layout,
+.mainBody {
     width: 100%;
     overflow-x: hidden;
 }
 
-.navbar{
+.navbar {
     background: linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%);
     border-right: 1px solid #a202ff;
     border-left: 1px solid #a202ff;
     border-bottom: 1px solid #a202ff;
     box-shadow: 1px 2px 3px #b93fff;
-    border-radius: 0  0 15px 15px ;
+    border-radius: 0 0 15px 15px;
     cursor: pointer;
 }
-.mainFooter{
-    background: linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%);
-    border-right: 1px solid #a202ff;
-    border-left: 1px solid #a202ff;
-    border-bottom: 1px solid #a202ff;
-    border-top: 2px solid purple;
-    box-shadow: 1px 2px 3px #b93fff;
-    border-radius: 25px 25px 0  0 ;
-    cursor: pointer;
+
+.lottoFooter {
+    background: linear-gradient(180deg, #e6c24d, #775714);
+    border-top: 3px solid #ccbf80;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: max-content;
+    margin: auto;
+}
+
+.lottoFooter img {
+    width: 30px;
+    height: 30px;
+}
+
+.lottoFooter .middleIcon img {
+    width: 50px;
+    height: 50px;
 }
 
 @media screen and (min-width:765px) {
-    .layout,.mainBody{
+
+    .layout,
+    .mainBody {
         width: 375px;
         margin: auto;
     }
-    .mainFooter{
+
+    .lottoFooter {
         width: 375px;
     }
 }
+
 @media screen and (max-width:350px) {
-    .mainFooter small{
+    .lottoFooter small {
         font-size: 12px;
     }
 }
