@@ -53,7 +53,7 @@ function Offcanvas3D() {
   }
   return (
     <>
-      <Button className='btn p-2 rounded-xl w-max my-2 text-white' style={{background:' linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%)'}} onClick={handleShow}>
+      <Button className='btn p-2 rounded-xl w-max my-2 text-white' style={{background:' linear-gradient(180deg, #e6c24d, #775714)'}} onClick={handleShow}>
       အမြန်ရွေး
       </Button>
 
