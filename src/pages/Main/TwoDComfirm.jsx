@@ -153,7 +153,7 @@ const TwoDComfirm = ()=>{
             လက်ကျန်ငွေ: <span className="fw-bold"> 0 </span> ကျပ်
         </span><br/>
         </div>
-        <Button className="mb-3 rounded-5 fw-bold border-0" style={{background:'purple',fontSize:'13px'}} onClick={allR}>All R <IoMdRepeat size={23} /></Button><br/>
+        <Button className="mb-3 rounded-5 fw-bold border-0" style={{background:'#775714',fontSize:'13px'}} onClick={allR}>All R <IoMdRepeat size={23} /></Button><br/>
        {twoDSelectedNumbers.length>0 &&  <Table striped bordered hover style={{fontSize:'14px'}}>
         <thead  >
             <tr>
@@ -197,7 +197,7 @@ const TwoDComfirm = ()=>{
             </tr>
         </tbody>
         </Table>}
-        <Button disabled={userTwodData.length<1} style={{background:' linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%)'}} >
+        <Button disabled={userTwodData.length<1} style={{background:' linear-gradient(180deg, #e6c24d, #775714) '}} >
         <NavLink to='/bet-history' style={{background:'none'}} className=' text-decoration-none text-white btn'   onClick={twodStoreData}>ထိုးမည်</NavLink>
         </Button>
      </div>

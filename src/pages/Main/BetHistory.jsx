@@ -103,7 +103,7 @@ const BetHistory = ()=>{
       className="mb-3 d-flex justify-content-center"
     >
       <Tab eventKey="TwoD" title="2D  ထီထိုးမှတ်တမ်း">
-      <div className="m-3 p-3 " style={{backgroundColor:'rgba(102, 0, 149, 1)'}}>
+      <div className="m-3 p-3 " style={{backgroundColor:'#775714'}}>
       <h6 className="fw-bold text-center">{new Date().toLocaleDateString()}</h6>
         <div  className="d-flex justify-content-around align-items-start">
             <p className="text-center fw-bold">Section</p>

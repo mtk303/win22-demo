@@ -155,7 +155,7 @@ const ThreeDConfirm = () => {
             လက်ကျန်ငွေ: <span className="fw-bold"> 0 </span> ကျပ်
         </span><br/>
         </div>
-        <Button  onClick={allRHandler} className="mb-3 rounded-5 fw-bold border-0" style={{background:'purple',fontSize:'13px'}} >All R <IoMdRepeat size={23} /></Button><br/>
+        <Button  onClick={allRHandler} className="mb-3 rounded-5 fw-bold border-0" style={{background:'#775714',fontSize:'13px'}} >All R <IoMdRepeat size={23} /></Button><br/>
         {threeDSelectedNumbers.length>0 &&  <Table striped bordered hover className='mt-3 mx-3'>
           <thead>
           <tr>
@@ -189,7 +189,7 @@ const ThreeDConfirm = () => {
           </tbody>
       </Table>}
        
-        <Button onClick={threedStoreData}  style={{background:' linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%)'}} >
+        <Button onClick={threedStoreData}  style={{background:' linear-gradient(180deg, #e6c24d, #775714)'}} >
          ထိုးမည် 
         </Button>
      </div>

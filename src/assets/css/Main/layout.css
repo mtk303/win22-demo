@@ -5,11 +5,11 @@
 }
 
 .navbar {
-    background: linear-gradient(6deg, rgba(102, 0, 149, 1) 0%, rgba(52, 0, 87, 1) 56%);
-    border-right: 1px solid #a202ff;
-    border-left: 1px solid #a202ff;
-    border-bottom: 1px solid #a202ff;
-    box-shadow: 1px 2px 3px #b93fff;
+    background: linear-gradient(180deg, #e6c24d, #775714) ;
+    border-right: 1px solid #e6c24d;
+    border-left: 1px solid #e6c24d;
+    border-bottom: 1px solid #e6c24d;
+    box-shadow: 1px 2px 3px #775714;
     border-radius: 0 0 15px 15px;
     cursor: pointer;
 }
